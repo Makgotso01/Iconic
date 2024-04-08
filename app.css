@@ -13,12 +13,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-image: url("img/Yousuf-Karsh-Nelson-Mandela-1990--330x300.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-color: rgb(73, 70, 70);
-}
 .btn {
   outline: none;
   border: none;
@@ -38,6 +32,10 @@ a {
 
 body {
   font-family: "Montserrat", sans-serif;
+  background-image: url("img/Yousuf-Karsh-Nelson-Mandela-1990--330x300.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-color: rgb(73, 70, 70);
 }
 
 nav {

@@ -13,6 +13,12 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url("img/Yousuf-Karsh-Nelson-Mandela-1990--330x300.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-color: rgb(73, 70, 70);
+}
 .btn {
   outline: none;
   border: none;
@@ -205,7 +211,7 @@ nav {
 .content h2 {
   margin-bottom: 0.5rem;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 2px;
   color: var(--text-dark);
 }
@@ -335,13 +341,13 @@ nav {
     flex-direction: column;
   }
 
-  .tent-1 {
+  .Nelson1 {
     width: calc(100% + 10rem);
     max-width: 325px;
     transform: translate(-2rem, 2rem);
   }
 
-  .tent-2 {
+  .Nelson2 {
     max-width: 200px;
     transform: translate(4rem, -1rem);
   }

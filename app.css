@@ -172,8 +172,8 @@ nav {
   justify-content: center;
 }
 
-.tent-1 {
-  max-width: 500px;
+.Nelson1 {
+  max-width: 300px;
   transform: translateX(1rem);
   border-radius: 1rem;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
@@ -182,7 +182,7 @@ nav {
   margin-top: 100%;
 }
 
-.tent-2 {
+.Nelson2 {
   max-width: 180px;
   transform: translateX(-1rem);
   border-radius: 1rem;
@@ -254,11 +254,6 @@ nav {
   display: flex;
   align-items: center;
   gap: 10px;
-}
-
-.socials a {
-  font-size: 1.25rem;
-  color: var(--text-dark);
 }
 
 @media (width > 768px) {

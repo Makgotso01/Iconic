@@ -37,8 +37,17 @@
   border: 2px solid grey;
   border-radius: 6px;
   text-decoration: none;
+  margin-right: 10px;
+  transition: 0.5s;
+}
+.social-media a:hover {
+  background: black;
 }
 .social-media a i {
   font-size: 20px;
   color: grey;
+  transition: 0.5s;
+}
+.social-media a:hover i {
+  color: wheat;
 }

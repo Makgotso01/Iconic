@@ -51,3 +51,11 @@
 .social-media a:hover i {
   color: wheat;
 }
+.navbar a {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 30px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

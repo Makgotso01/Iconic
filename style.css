@@ -95,11 +95,14 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  -webkit-mask: linear-gradient(grey), linear-gradient(grey 0 0);
+  -webkit-mask-clip: text, padding-box;
+  -webkit-mask-composite: xor;
 }
 
 .penetrate-blur h1 {
   font-size: 200px;
-  color: white;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 8);
 }
 .left-info .content {
   position: absolute;

@@ -52,7 +52,7 @@
   background: black;
 }
 .navbar a:hover {
-  background: black;
+  background: wheat;
 }
 .social-media a i {
   font-size: 20px;
@@ -129,7 +129,7 @@
 }
 .content .btn:hover {
   background: transparent;
-  color: black;
+  color: wheat;
 }
 .slide .right-info {
   position: absolute;
@@ -141,7 +141,7 @@
   align-items: center;
 }
 .right-info h1 {
-  font-size: 100px;
+  font-size: 200px;
   color: whitesmoke;
 }
 .right-info h3 {

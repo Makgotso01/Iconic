@@ -40,7 +40,18 @@
   margin-right: 10px;
   transition: 0.5s;
 }
+.navbar {
+  background: transparent;
+  border: 2px solid grey;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-right: 10px;
+  transition: 0.5s;
+}
 .social-media a:hover {
+  background: black;
+}
+.navbar a:hover {
   background: black;
 }
 .social-media a i {
@@ -130,12 +141,12 @@
   align-items: center;
 }
 .right-info h1 {
-  font-size: 800px;
+  font-size: 100px;
   color: whitesmoke;
 }
 .right-info h3 {
   position: absolute;
-  font-size: 30px;
+  font-size: 100px;
   color: whitesmoke;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   transform: translateY(150%);

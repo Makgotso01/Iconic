@@ -123,9 +123,10 @@
   border-radius: 6px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   font-size: 16px;
-  color: black;
+  color: grey;
   text-decoration: none;
   font-weight: 600;
+  transition: .5s;
 }
 .content .btn:hover {
   background: transparent;
@@ -142,6 +143,7 @@
 }
 .right-info h1 {
   font-size: 180px;
+  text-align: right;
   color: whitesmoke;
 }
 .right-info h3 {

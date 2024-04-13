@@ -74,14 +74,13 @@
   top: 0;
   width: 50%;
   height: 100%;
-  background: pink;
 }
 .left-info .penetrate-blur {
   position: absolute;
-  width: 200%;
+  width: 100%;
   height: 100%;
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(30px);
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -131,7 +130,7 @@
   align-items: center;
 }
 .right-info h1 {
-  font-size: 100px;
+  font-size: 800px;
   color: whitesmoke;
 }
 .right-info h3 {
